@@ -281,7 +281,7 @@ def signup():
     f7 = Frame(signup_window, padx=20)
     Label(f7, font=20, text='Mobile No').pack(side=LEFT)
     mobile_entry = Entry(f7,  font=('courier', 15))
-        mobile_entry.pack(padx=20, anchor='e')
+    mobile_entry.pack(padx=20, anchor='e')
     f7.pack(anchor='w', padx=30, pady=20)
 
     # ----> SUBMIT BUTTON IN SIGN WINDOW
